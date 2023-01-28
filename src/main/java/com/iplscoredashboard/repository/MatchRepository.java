@@ -1,4 +1,9 @@
 package com.iplscoredashboard.repository;
 
-public interface MatchRepository {
+import com.iplscoredashboard.model.Match;
+import org.springframework.data.repository.CrudRepository;
+
+public interface MatchRepository extends CrudRepository<Match, Long> {
+
+
 }
